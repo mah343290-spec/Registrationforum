@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTERATION FORM</title>
+</head>
+<style>
+    body{
+        background-color: wheat;
+    }
+</style>
+<body>
+    <h1>STUDENT REGISTERATION FORM</h1>
+    <form action="" method="post">
+        <fieldset style="width:600px ;">
+            <legend align="center"><strong>Register yourself</strong></legend>
+            <label for="rollno">Roll no:</label>
+            <input type="text" id="rollno" style="margin-left: 100px;" maxlength="6" size="47" required>
+            <br>
+            <br>
+            <label for="stname">Student Name:</label>
+            <input type="text" id="stname" style="margin-left: 56px;" placeholder="First name" required>- <input
+                type="text" id="stname" placeholder="Last name">
+            <br>
+            <br>
+            <label for="ftname">Father's Name:</label>
+            <input type="text" id="ftname" style="margin-left: 54px;" size="47">
+            <br>
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="text" id="dob" placeholder="Date" style="margin-left: 63px;" size="3" required>-<input
+                type="text" id="dob" placeholder="Month" size="5" required>-<input type="text" id="dob"
+                placeholder="Year" size="10" required>
+            <label for="dob">(DD-MM-YYYY)</label>
+            <br>
+            <br>
+            <label for="mobno">Mobile No:</label>
+            <select name="country code" id="mobno" style="margin-left: 75px;" size="1" required>
+                <option value="+49">+49</option>
+                <option value="+44" selected>+44</option>
+                <option value="+92">+92</option>
+                <option value="+91">+91</option>
+                <option value="+33">+33</option>
+            </select>- <input type="text" id="mobno" size="39">
+            <br>
+            <br>
+            <label for="emlid">Email id:</label>
+            <input type="text" id="emlid" placeholder="example123@gmail.com" required size="47"
+                style="margin-left: 90px;">
+            <br>
+            <br>
+            <label for="psword">Password:</label>
+            <input type="password" id="psword" maxlength="8" size="47" style="margin-left: 83px;" required>
+            <br>
+            <br>
+            <label for="gndr">Gender:</label>
+            <input type="radio" id="gndr" name="Gender" value="Male" style="margin-left: 93px;">Male
+            <input type="radio" id="gndr" name="Gender" value="Female">Female
+            <input type="radio" id="gndr" name="Gender" value="Other">Other
+            <br>
+            <br>
+            <label for="dep">Department:</label>
+            <input type="radio" name="department" id="dep" value="Pre-Medical" style="margin-left: 64px;">Pre-Medical
+            <input type="radio" name="department" id="dep" value="Pre-Engineering">Pre-Engineering
+            <input type="radio" name="department" id="dep" value="Commerce">Commerce
+            <input type="radio" name="department" id="dep" value="General Science">General Science
+            <br>
+            <br>
+            <label for="sub">Subjects:</label>
+            <select name="Subjects" id="sub" style="margin-left: 84px;" size="1" required>
+                <option value="------------------------- Select your subjects------------------------- " selected>------------------------- Select your subjects------------------------- </option>
+                <option value="Maths">Maths</option>
+                <option value="Physics">Physics</option>
+                <option value="Biology">Biology</option>
+                <option value="Accounting">Accounting</option>
+                <option value="B.Maths">B.Maths</option>
+                <option value="Computer">Computer</option>
+                <option value="P.O.C">P.O.C</option>
+                <option value="Economics">Economics</option>
+                <option value="Banking">Banking</option>
+                <option value="C.G">C.G</option>
+                <option value="English">English</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Islamiat">Islamiat</option>
+                <option value="P.S.T">P.S.T</option>
+            </select>
+            <br>
+            <br>
+            <label for="photo">Student photo:</label>
+            <input type="file" id="photo" required style="margin-left: 54px;">
+            <br>
+            <br>
+            <label for="city">City:</label>
+            <input type="text" id="city" style="margin-left: 110px;" size="47">
+            <br>
+            <br>
+            <label for="address">Address:</label>
+            <textarea name="" id="address" placeholder="Enter your address" required style="margin-left: 85px;" cols="47"></textarea>
+            <br>
+            <br>
+            <input type="Submit" style="margin-left: 45%;">
+        </fieldset>
+    </form>
+</body>
+
+</html>
